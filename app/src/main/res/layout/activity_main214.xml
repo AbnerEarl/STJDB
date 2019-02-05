@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.stjdb.Main214Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\n一、金色昵称显示，搜索结果优先排列，尽享尊贵！\n\n二、发送告白心语时可以自动生成浪漫信纸，瞬间拉近双方距离！\n\n三、可以查看告白对象来源，连接虚拟和现实！\n\n四、游戏时，时刻享有优先权，先人一步，尊享奢华，任性不解释！\n\n五、还有一个不能说的秘密，会员才能接触，让你瞬间心跳加速！"
+        android:id="@+id/textView20"
+        android:background="@android:color/transparent"
+        android:textColor="#f6b40e"
+        android:textSize="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\n1天2分钱，1年就10元！"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:layout_alignRight="@+id/textView20"
+        android:layout_alignEnd="@+id/textView20" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开通贵族特权尊享皇级服务"
+        android:id="@+id/button34"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView20"
+        android:layout_alignEnd="@+id/textView20" />
+</RelativeLayout>

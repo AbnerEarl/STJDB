@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.stjdb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tubiao1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        android:label="@string/app_name"
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="用户登录" />
+        <activity
+            android:name=".Main22Activity"
+            android:label="我的主页" />
+        <activity
+            android:name=".Main23Activity"
+            android:label="选择逗友" />
+        <activity
+            android:name=".Main24Activity"
+            android:label="比拼进行" />
+        <activity
+            android:name=".Main25Activity"
+            android:label="用户注册" />
+        <activity
+            android:name=".Main26Activity"
+            android:label="全能聊天系统" />
+        <activity
+            android:name=".Main27Activity"
+            android:label="免流量P2P对传" />
+        <activity
+            android:name=".Main28Activity"
+            android:label="充值中心" />
+        <activity
+            android:name=".Main29Activity"
+            android:label="添加逗友" />
+        <activity
+            android:name=".Main210Activity"
+            android:label="心情日记" />
+        <activity
+            android:name=".Main211Activity"
+            android:label="那一个TA" />
+        <activity
+            android:name=".Main212Activity"
+            android:label="想对你说" />
+        <activity
+            android:name=".Main213Activity"
+            android:label="告白信笺" />
+        <activity
+            android:name=".Main214Activity"
+            android:label="皇的服务" />
+        <activity
+            android:name=".Main215Activityzhandou"
+            android:label="战斗and战绩" />
+        <activity
+            android:name=".WebPageBlog"
+            android:label="我的博客" />
+        <activity
+            android:name=".JingJingDeShouHou"
+            android:label="隐身守候" />
+        <activity
+            android:name=".SingSong"
+            android:label="给TA点歌" />
+        <activity
+            android:name=".ShowFrieds"
+            android:label="我的逗友" />
+        <activity
+            android:name=".ReceiveSong"
+            android:label="收到歌单" />
+        <activity
+            android:name=".WebPageChangBaDownload"
+            android:label="应用下载"></activity>
+        <activity android:name=".MessageReturn"></activity>
+    </application>
+
+</manifest>
